@@ -1,0 +1,33 @@
+/* .button1{
+    width: 15vw;
+    height: 15vh;
+    background-color: rgb(57, 128, 58);
+    border: none;
+}
+
+.button2{
+    width: 15vw;
+    height: 15vh;
+    background-color: rgb(128, 103, 57);
+    border: none;
+}
+
+.button3{
+    width: 15vw;
+    height: 15vh;
+    background-color: rgb(57, 61, 128);
+    border: none;
+} */
+
+.hideCh{
+    display: none;
+}
+
+.button {
+    padding: 10vw;
+    background-color: rgb(57, 128, 58);
+}
+
+.hideCh:checked + .button::after {
+    content: "You cLick!";
+}
