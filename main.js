@@ -11,15 +11,4 @@ function toggleCheckbox(id) {
     const label = document.querySelector(`label[for=${buttonId}]`);
 
     checkboxElement.checked = !checkboxElement.checked;
-
-    // if (checkboxElement.checked) {
-    //     label.textContent = label.dataset.originalText + " (Clicked)";
-    //     label.classList.add('active');
-    // } else {
-    //     label.textContent = label.dataset.originalText;
-    //     label.classList.remove('active');
-    // }
 }
-
-
-// toggleButton('chk1');
